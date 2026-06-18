@@ -1,0 +1,40 @@
+# Environment / secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# AWS credentials and config
+.aws/
+credentials
+config
+
+# Private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Terraform / IaC state if added later
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Logs
+*.log
+logs/
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Archives and downloaded app packages
+*.zip
+*.tar
+*.tar.gz
+
+# Python cache
+__pycache__/
+*.pyc
